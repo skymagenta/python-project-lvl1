@@ -11,4 +11,7 @@ publish: # отладка публикации, без добавления па
 	poetry publish --dry-run
 
 package-install: # установка пакета из операционной системы
-	python3 -m pip install --user dist/*.whl	
+	python3 -m pip install --user dist/*.whl
+
+lint: # запускает линтер
+	poetry run flake8 brain_games
