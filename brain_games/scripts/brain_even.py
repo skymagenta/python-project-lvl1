@@ -22,8 +22,8 @@ def main():
             correct_answer = 'no'
 
         if answer != correct_answer:
-            print(answer, 'is wrong answer ;(. Correct answer was',\
-            correct_answer, '.')
+            print(answer, 'is wrong answer ;(. Correct answer was',
+                  correct_answer, '.')
             print("Let's try again", name, "!")
             break
         else:
