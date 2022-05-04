@@ -14,4 +14,4 @@ package-install: # установка пакета из операционной
 	python3 -m pip install --user dist/*.whl
 
 lint: # запускает линтер
-	poetry run flake8 brain_even
+	poetry run flake8 brain-even
