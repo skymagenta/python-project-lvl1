@@ -10,6 +10,9 @@ brain-even: # запуск игры "Проверка на четность".
 brain-calc: # запуск игры "Калькулятор".
 	poetry run brain-calc
 
+brain-gcd: # запуск игры "НОД".
+	poetry run brain-gcd
+
 build: # собирает пакет
 	poetry build
 

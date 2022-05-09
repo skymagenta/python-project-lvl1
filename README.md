@@ -12,3 +12,6 @@ Example of Odd-Even game:
 
 Example of Calc game:
 [![asciicast](https://asciinema.org/a/QgDKdlOnNmy2BmB0LJMAtreet.svg)](https://asciinema.org/a/QgDKdlOnNmy2BmB0LJMAtreet)
+
+Example of GCD game:
+[![asciicast](https://asciinema.org/a/xIM49HPohgNbwOEXJokGzwBTt.svg)](https://asciinema.org/a/xIM49HPohgNbwOEXJokGzwBTt)
