@@ -26,8 +26,7 @@ def gcd():
         print('Question: ', f'{x} {y}')
         answer = prompt.string('Your answer: ')
         correct_answer = str(get_greatest_common_divisor(x, y))
-        
-        if answer != correct_answer:
+            if answer != correct_answer:
             print(answer, 'is wrong answer ;(. Correct answer was',
                   correct_answer, '.')
             print("Let's try again", name, "!")
