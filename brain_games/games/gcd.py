@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
-from random import randint, choice
+from random import randint
 import prompt
 
 
 def get_greatest_common_divisor(x, y):
-    for num in range(min(x,y), 0, -1):
-        if (x % num == 0) and (y % num ==0):
+    for num in range(min(x, y), 0, -1):
+        if (x % num == 0) and (y % num == 0):
             gcd = num
             break
     return gcd
@@ -27,7 +27,6 @@ def gcd():
         answer = prompt.string('Your answer: ')
         correct_answer = str(get_greatest_common_divisor(x, y))
         
-
         if answer != correct_answer:
             print(answer, 'is wrong answer ;(. Correct answer was',
                   correct_answer, '.')
