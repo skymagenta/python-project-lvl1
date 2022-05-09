@@ -26,8 +26,9 @@ def calc():
             correct_answer = str(x * y)
 
         if answer != correct_answer:
-            print(f"{answer} is wrong answer ;(. Correct answer was {correct_answer}.")
-            print(f"Let's try again, {name}!")
+            print(answer, 'is wrong answer ;(. Correct answer was',
+                  correct_answer, '.')
+            print("Let's try again", name, "!")
             break
         else:
             print('Correct!')
