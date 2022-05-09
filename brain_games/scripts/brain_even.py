@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-from random import randint
-import prompt
 from brain_games.games.even import even
 
 
