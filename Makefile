@@ -4,6 +4,12 @@ install: # построить дерево зависимостей проект
 brain-games: # запуск программы.
 	poetry run brain-games
 
+brain-even: # запуск игры "Проверка на четность".
+	poetry run brain-even
+
+brain-calc: # запуск игры "Калькулятор".
+	poetry run brain-calc
+
 build: # собирает пакет
 	poetry build
 

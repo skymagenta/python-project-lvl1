@@ -9,3 +9,6 @@
 
 Example of Odd-Even game:
 [![asciicast](https://asciinema.org/a/Y8WyF0bbzi3WMVsNakxCtYQc2.svg)](https://asciinema.org/a/Y8WyF0bbzi3WMVsNakxCtYQc2)
+
+Example of Calc game:
+[![asciicast](https://asciinema.org/a/QgDKdlOnNmy2BmB0LJMAtreet.svg)](https://asciinema.org/a/QgDKdlOnNmy2BmB0LJMAtreet)

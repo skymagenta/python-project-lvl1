@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 
-from random import randint
+from random import randint, choice
 import prompt
-from brain_games.games.even import even
+from brain_games.games.calc import calc
 
 
 def main():
-    even()
-
+     calc()
 
 if __name__ == '__main__':
     main()
