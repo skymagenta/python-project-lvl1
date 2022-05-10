@@ -13,6 +13,9 @@ brain-calc: # запуск игры "Калькулятор".
 brain-gcd: # запуск игры "НОД".
 	poetry run brain-gcd
 
+brain-progression: # запуск игры "Арифметическая прогрессия".
+	poetry run brain-progression
+
 build: # собирает пакет
 	poetry build
 

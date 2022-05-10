@@ -15,3 +15,6 @@ Example of Calc game:
 
 Example of GCD game:
 [![asciicast](https://asciinema.org/a/xIM49HPohgNbwOEXJokGzwBTt.svg)](https://asciinema.org/a/xIM49HPohgNbwOEXJokGzwBTt)
+
+Example of Arithmetic progression game:
+[![asciicast](https://asciinema.org/a/FozdmdK4vr4kEC7tNHs1wkcid.svg)](https://asciinema.org/a/FozdmdK4vr4kEC7tNHs1wkcid)
