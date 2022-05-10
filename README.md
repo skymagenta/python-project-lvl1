@@ -18,3 +18,6 @@ Example of GCD game:
 
 Example of Arithmetic progression game:
 [![asciicast](https://asciinema.org/a/FozdmdK4vr4kEC7tNHs1wkcid.svg)](https://asciinema.org/a/FozdmdK4vr4kEC7tNHs1wkcid)
+
+Example of Is number prime game:
+[![asciicast](https://asciinema.org/a/MHg5a68KqP0NdGGJ3lJZY9ZRO.svg)](https://asciinema.org/a/MHg5a68KqP0NdGGJ3lJZY9ZRO)

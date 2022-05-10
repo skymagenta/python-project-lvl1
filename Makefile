@@ -16,6 +16,9 @@ brain-gcd: # запуск игры "НОД".
 brain-progression: # запуск игры "Арифметическая прогрессия".
 	poetry run brain-progression
 
+brain-prime: # запуск игры "Простое ли число?".
+	poetry run brain-prime
+
 build: # собирает пакет
 	poetry build
 
