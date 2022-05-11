@@ -31,7 +31,7 @@ def progression():
 
     while i < 3:
         list_of_num = create_sequence()
-        position = randint(0, len(list_of_num)-1)
+        position = randint(0, len(list_of_num) - 1)
         correct_answer = list_of_num[position]
         list_of_num[position] = '..'
         str_for_user = ' '.join(list_of_num)
