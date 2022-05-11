@@ -16,7 +16,7 @@ def calc():
         x = randint(1, 100)
         y = randint(1, 100)
         sign = choice(['+', '-', '*'])
-        print('Question: ', f'{x} {sign} {y}')
+        print('Question:', f'{x} {sign} {y}')
         answer = prompt.string('Your answer: ')
         if sign == '+':
             correct_answer = str(x + y)
@@ -28,11 +28,11 @@ def calc():
         if answer != correct_answer:
             print(answer, 'is wrong answer ;(. Correct answer was',
                   correct_answer, '.')
-            print("Let's try again", name, "!")
+            print(f"Let's try again, {name}!")
             break
         else:
             print('Correct!')
         i += 1
 
     if i == 3:
-        print('Congratulations,', name)
+        print(f'Congratulations, {name}!')
