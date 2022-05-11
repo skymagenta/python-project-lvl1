@@ -33,17 +33,17 @@ def prime():
 
     while i < 3:
         num = randint(1, 100)
-        print('Question: ', num)
+        print('Question:', num)
         answer = prompt.string('Your answer: ')
         correct_answer = is_number_prime(num)
         if answer != correct_answer:
             print(answer, 'is wrong answer ;(. Correct answer was',
                   correct_answer, '.')
-            print("Let's try again", name, "!")
+            print(f"Let's try again, {name}!")
             break
         else:
             print('Correct!')
         i += 1
 
     if i == 3:
-        print('Congratulations,', name)
+        print(f'Congratulations, {name}!')
