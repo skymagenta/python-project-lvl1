@@ -14,7 +14,7 @@ def even():
 
     while i < 3:
         x = randint(1, 100)
-        print('Question: ', x)
+        print('Question: ', str(x))
         answer = prompt.string('Your answer: ')
         if x % 2 == 0:
             correct_answer = 'yes'
