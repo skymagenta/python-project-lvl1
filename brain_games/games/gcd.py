@@ -23,17 +23,17 @@ def gcd():
     while i < 3:
         x = randint(1, 100)
         y = randint(1, 100)
-        print('Question: ', f'{x} {y}')
+        print('Question:', f'{x} {y}')
         answer = prompt.string('Your answer: ')
         correct_answer = str(get_greatest_common_divisor(x, y))
         if answer != correct_answer:
             print(answer, 'is wrong answer ;(. Correct answer was',
                   correct_answer, '.')
-            print("Let's try again", name, "!")
+            print(f"Let's try again, {name}!")
             break
         else:
             print('Correct!')
         i += 1
 
     if i == 3:
-        print('Congratulations,', name)
+        print(f'Congratulations, {name}!')
