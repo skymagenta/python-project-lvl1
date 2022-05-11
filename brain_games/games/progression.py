@@ -35,16 +35,16 @@ def progression():
         correct_answer = list_of_num[position]
         list_of_num[position] = '..'
         str_for_user = ' '.join(list_of_num)
-        print('Question: ', str_for_user)
+        print('Question:', str_for_user)
         answer = prompt.string('Your answer: ')
         if answer != correct_answer:
             print(answer, 'is wrong answer ;(. Correct answer was',
                   correct_answer, '.')
-            print("Let's try again", name, "!")
+            print(f"Let's try again, {name}!")
             break
         else:
             print('Correct!')
         i += 1
 
     if i == 3:
-        print('Congratulations,', name)
+        print(f'Congratulations, {name}!')
