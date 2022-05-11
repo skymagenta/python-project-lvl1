@@ -24,7 +24,7 @@ def even():
         if answer != correct_answer:
             print(answer, 'is wrong answer ;(. Correct answer was',
                   correct_answer, '.')
-            print("Let's try again", name, "!")
+            print(f"Let's try again, {name}!")
             break
         else:
             print('Correct!')
