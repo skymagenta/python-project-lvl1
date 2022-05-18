@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 from random import randint
-import prompt
 
 
 def create_sequence():
@@ -21,30 +20,17 @@ def create_sequence():
     return list_of_num
 
 
-def progression():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello', name, '!')
-    print('What number is missing in the progression?')
-
-    i = 0
-
-    while i < 3:
+def progression(game_count = 3):
+    questions = []
+    correct_answers = []
+    for i in range(game_count):
         list_of_num = create_sequence()
         position = randint(0, len(list_of_num) - 1)
         correct_answer = list_of_num[position]
         list_of_num[position] = '..'
-        str_for_user = ' '.join(list_of_num)
-        print('Question:', str_for_user)
-        answer = prompt.string('Your answer: ')
-        if answer != correct_answer:
-            print(answer, 'is wrong answer ;(. Correct answer was',
-                  correct_answer, '.')
-            print(f"Let's try again, {name}!")
-            break
-        else:
-            print('Correct!')
-        i += 1
+        question = ' '.join(list_of_num)
+        questions.append(question)
+        correct_answers.append(correct_answer)
 
-    if i == 3:
-        print(f'Congratulations, {name}!')
+    print('What number is missing in the progression?')
+    return questions, correct_answers

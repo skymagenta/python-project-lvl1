@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 
+from brain_games.realization import machinarium
 from brain_games.games.even import even
 
 
 def main():
-    even()
+    machinarium(even)
 
 
 if __name__ == '__main__':

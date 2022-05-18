@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 from random import randint
-import prompt
 
 
 def is_number_prime(num):
@@ -11,9 +10,8 @@ def is_number_prime(num):
     is_prime = 'yes'
     if num == 1:
         is_prime = 'no'
-        return is_prime
     elif num == 2:
-        return is_prime
+        is_prime = 'yes'
     else:
         for divider in range(2, num):
             if num % divider == 0:
@@ -23,27 +21,13 @@ def is_number_prime(num):
     return is_prime
 
 
-def prime():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello', name, '!')
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-
-    i = 0
-
-    while i < 3:
+def prime(game_count = 3):
+    questions = []
+    correct_answers = []
+    for i in range(game_count):
         num = randint(1, 100)
-        print('Question:', num)
-        answer = prompt.string('Your answer: ')
-        correct_answer = is_number_prime(num)
-        if answer != correct_answer:
-            print(answer, 'is wrong answer ;(. Correct answer was',
-                  correct_answer, '.')
-            print(f"Let's try again, {name}!")
-            break
-        else:
-            print('Correct!')
-        i += 1
+        questions.append(str(num))
+        correct_answers.append(is_number_prime(num))
 
-    if i == 3:
-        print(f'Congratulations, {name}!')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+    return questions, correct_answers
