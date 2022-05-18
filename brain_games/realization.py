@@ -22,9 +22,9 @@ def machinarium(game):
             correct_answers_counts += 1
             print('Correct!')
         else:
-            print(f"{user_answer} is wrong answer ;(. Correct answer was' {correct_answers[i]}.")
+            print(f"{user_answer} is wrong answer ;(. \
+            Correct answer was' {correct_answers[i]}.")
             print(f"Let's try again, {name}!")
             break
-    
     if correct_answers_counts == len(questions):
         print(f"Congratulations, {name}!")

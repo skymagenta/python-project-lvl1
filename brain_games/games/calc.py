@@ -3,7 +3,7 @@
 from random import randint, choice
 
 
-def calc(game_count = 3):
+def calc(game_count=3):
     questions = []
     correct_answers = []
     for i in range(game_count):
@@ -18,6 +18,5 @@ def calc(game_count = 3):
             correct_answers.append(str(x - y))
         else:
             correct_answers.append(str(x * y))
-    
     print('What is the result of the expression?')
     return questions, correct_answers

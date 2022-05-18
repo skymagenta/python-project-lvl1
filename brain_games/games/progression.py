@@ -20,7 +20,7 @@ def create_sequence():
     return list_of_num
 
 
-def progression(game_count = 3):
+def progression(game_count=3):
     questions = []
     correct_answers = []
     for i in range(game_count):
@@ -31,6 +31,5 @@ def progression(game_count = 3):
         question = ' '.join(list_of_num)
         questions.append(question)
         correct_answers.append(correct_answer)
-
     print('What number is missing in the progression?')
     return questions, correct_answers

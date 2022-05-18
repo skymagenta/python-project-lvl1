@@ -14,7 +14,7 @@ def get_greatest_common_divisor(x, y):
     return gcd
 
 
-def gcd(game_count = 3):
+def gcd(game_count=3):
     questions = []
     correct_answers = []
     for i in range(game_count):

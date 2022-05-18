@@ -3,7 +3,7 @@
 from random import randint
 
 
-def even(game_count = 3):
+def even(game_count=3):
     questions = []
     correct_answers = []
     for i in range(game_count):
@@ -14,6 +14,5 @@ def even(game_count = 3):
             correct_answers.append('yes')
         else:
             correct_answers.append('no')
-            
     print('Answer "yes" if the number is even, otherwise answer "no".')
     return questions, correct_answers

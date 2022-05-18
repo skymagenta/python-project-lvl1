@@ -21,7 +21,7 @@ def is_number_prime(num):
     return is_prime
 
 
-def prime(game_count = 3):
+def prime(game_count=3):
     questions = []
     correct_answers = []
     for i in range(game_count):
