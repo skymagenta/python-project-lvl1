@@ -4,7 +4,8 @@ from random import randint
 
 
 def even():
-    game_conditions = 'Answer "yes" if the number is even, otherwise answer "no".'
+    game_conditions = 'Answer "yes" if the number is even, \
+otherwise answer "no".'
     questions_and_answers = []
     x = randint(1, 100)
     questions_and_answers.append(x)
