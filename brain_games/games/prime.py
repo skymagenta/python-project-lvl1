@@ -22,7 +22,8 @@ def is_number_prime(num):
 
 
 def prime():
-    game_conditions = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    game_conditions = 'Answer "yes" if given number is prime. \
+Otherwise answer "no".'
     questions_and_answers = []
     num = randint(1, 100)
     questions_and_answers.append(num)
