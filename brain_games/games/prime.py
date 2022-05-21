@@ -5,7 +5,7 @@ from random import randint
 
 def is_number_prime(num):
     """
-    Проверяет, является ли число простым.
+    Checks, is number prime.
     """
     is_prime = 'yes'
     if num == 1:
@@ -21,13 +21,10 @@ def is_number_prime(num):
     return is_prime
 
 
-def prime(game_count=3):
-    questions = []
-    correct_answers = []
-    for i in range(game_count):
-        num = randint(1, 100)
-        questions.append(str(num))
-        correct_answers.append(is_number_prime(num))
-
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    return questions, correct_answers
+def prime():
+    game_conditions = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    questions_and_answers = []
+    num = randint(1, 100)
+    questions_and_answers.append(num)
+    questions_and_answers.append(is_number_prime(num))
+    return questions_and_answers, game_conditions
