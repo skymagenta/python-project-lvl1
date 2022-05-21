@@ -10,7 +10,7 @@ def welcome_user():
     return name
 
 
-def launch_game(game, game_counts = 3):
+def launch_game(game, game_counts=3):
     name = welcome_user()
     _, game_conditions = game()
     print(game_conditions)
@@ -21,7 +21,7 @@ def launch_game(game, game_counts = 3):
         user_answer = prompt.string('Your answer: ')
         if user_answer != questions_and_answers[1]:
             print(f"'{user_answer}' is wrong answer ;(. \
-            Correct answer was' '{questions_and_answers[1]}'.")
+Correct answer was' '{questions_and_answers[1]}'.")
             print(f"Let's try again, {name}!")
             break
         print('Correct!')
