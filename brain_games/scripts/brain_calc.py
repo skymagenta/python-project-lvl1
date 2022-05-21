@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.realization import machinarium
+from brain_games.game_engine import launch_game
 from brain_games.games.calc import calc
 
 
 def main():
-    machinarium(calc)
+    launch_game(calc)
 
 
 if __name__ == '__main__':
