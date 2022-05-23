@@ -2,15 +2,13 @@
 
 from random import randint
 
-
-def even():
-    game_conditions = 'Answer "yes" if the number is even, \
+GAME_CONDITIONS = 'Answer "yes" if the number is even, \
 otherwise answer "no".'
-    questions_and_answers = []
+
+def game():
     x = randint(1, 100)
-    questions_and_answers.append(x)
+    question = x
+    answer = 'no'
     if x % 2 == 0:
-        questions_and_answers.append('yes')
-    else:
-        questions_and_answers.append('no')
-    return questions_and_answers, game_conditions
+        answer = 'yes'
+    return question, answer
