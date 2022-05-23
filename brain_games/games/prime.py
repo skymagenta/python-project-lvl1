@@ -25,7 +25,7 @@ def is_number_prime(num):
 
 
 def bool_to_word(bool):
-    if bool == True:
+    if bool is True:
         return 'yes'
     else:
         return 'no'
