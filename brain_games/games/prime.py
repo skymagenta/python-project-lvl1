@@ -2,30 +2,37 @@
 
 from random import randint
 
+GAME_CONDITIONS = 'Answer "yes" if given number is prime. \
+Otherwise answer "no".'
+
 
 def is_number_prime(num):
     """
     Checks, is number prime.
     """
-    is_prime = 'yes'
-    if num == 1:
-        is_prime = 'no'
+    is_prime = True
+    if num <= 1:
+        is_prime = False
     elif num == 2:
-        is_prime = 'yes'
+        is_prime = True
     else:
         for divider in range(2, num):
             if num % divider == 0:
-                is_prime = 'no'
+                is_prime = False
                 break
 
     return is_prime
 
 
-def prime():
-    game_conditions = 'Answer "yes" if given number is prime. \
-Otherwise answer "no".'
-    questions_and_answers = []
+def bool_to_word(bool):
+    if bool == True:
+        return 'yes'
+    else:
+        return 'no'
+
+
+def game():
     num = randint(1, 100)
-    questions_and_answers.append(num)
-    questions_and_answers.append(is_number_prime(num))
-    return questions_and_answers, game_conditions
+    question = num
+    answer = bool_to_word(is_number_prime(num))
+    return question, answer
