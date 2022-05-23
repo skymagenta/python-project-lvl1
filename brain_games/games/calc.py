@@ -4,6 +4,7 @@ from random import randint, choice
 
 GAME_CONDITIONS = 'What is the result of the expression?'
 
+
 def game():
     x = randint(1, 100)
     y = randint(1, 100)
