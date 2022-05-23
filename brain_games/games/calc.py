@@ -2,18 +2,17 @@
 
 from random import randint, choice
 
+GAME_CONDITIONS = 'What is the result of the expression?'
 
-def calc():
-    game_conditions = 'What is the result of the expression?'
-    questions_and_answers = []
+def game():
     x = randint(1, 100)
     y = randint(1, 100)
-    sign = choice(['+', '-', '*'])
-    questions_and_answers.append(f"{x} {sign} {y}")
-    if sign == '+':
-        questions_and_answers.append(str(x + y))
-    elif sign == '-':
-        questions_and_answers.append(str(x - y))
-    else:
-        questions_and_answers.append(str(x * y))
-    return questions_and_answers, game_conditions
+    random_operator = choice(['+', '-', '*'])
+    question = f"{x} {random_operator} {y}"
+    if random_operator == '+':
+        answer = str(x + y)
+    elif random_operator == '-':
+        answer = str(x - y)
+    elif random_operator == '*':
+        answer = str(x * y)
+    return question, answer
