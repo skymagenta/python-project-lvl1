@@ -1,8 +1,6 @@
-#!/usr/bin/env python
-
 from random import randint
 
-GAME_CONDITIONS = 'What number is missing in the progression?'
+RULE = 'What number is missing in the progression?'
 
 
 def create_progression():
@@ -21,7 +19,7 @@ def create_progression():
     return progression
 
 
-def game():
+def game_round():
     progression = create_progression()
     random_index = randint(0, len(progression) - 1)
     answer = progression[random_index]
