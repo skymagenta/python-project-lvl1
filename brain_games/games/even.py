@@ -1,12 +1,10 @@
-#!/usr/bin/env python
-
 from random import randint
 
-GAME_CONDITIONS = 'Answer "yes" if the number is even, \
+RULE = 'Answer "yes" if the number is even, \
 otherwise answer "no".'
 
 
-def game():
+def game_round():
     x = randint(1, 100)
     question = x
     answer = 'no'
