@@ -1,18 +1,16 @@
-#!/usr/bin/env python
-
 import prompt
 
+ROUNDS_COUNTER = 3
 
-def launch_game(game):
+
+def launch(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
-    print(game.GAME_CONDITIONS)
+    print(game.RULE)
 
-    GAME_COUNTS = 3
-
-    for i in range(GAME_COUNTS):
-        question, answer = game.game()
+    for i in range(ROUNDS_COUNTER):
+        question, answer = game.game_round()
         print('Question:', question)
         user_answer = prompt.string('Your answer: ')
         if user_answer != answer:
