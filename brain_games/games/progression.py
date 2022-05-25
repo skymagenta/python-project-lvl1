@@ -3,7 +3,7 @@ from random import randint
 RULE = 'What number is missing in the progression?'
 
 
-def create_progression():
+def generate_progression():
     """
     Creates a list of 10 numbers ranging from 1 to 99
     in an arithmetic progression.
@@ -20,7 +20,7 @@ def create_progression():
 
 
 def game_round():
-    progression = create_progression()
+    progression = generate_progression()
     random_index = randint(0, len(progression) - 1)
     answer = progression[random_index]
     progression[random_index] = '..'
