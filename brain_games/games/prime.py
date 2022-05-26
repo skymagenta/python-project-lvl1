@@ -19,9 +19,8 @@ def is_prime(num):
 
 
 def game_round():
-    num = randint(1, 100)
-    question = num
+    question = randint(1, 100)
     answer = 'no'
-    if is_prime(num):
+    if is_prime(question):
         answer = 'yes'
     return question, answer
