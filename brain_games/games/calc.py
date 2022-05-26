@@ -4,14 +4,14 @@ RULE = 'What is the result of the expression?'
 
 
 def game_round():
-    x = randint(1, 100)
-    y = randint(1, 100)
+    random_number_1 = randint(1, 100)
+    random_number_2 = randint(1, 100)
     random_operator = choice(['+', '-', '*'])
-    question = f"{x} {random_operator} {y}"
+    question = f"{random_number_1} {random_operator} {random_number_2}"
     if random_operator == '+':
-        answer = x + y
+        answer = random_number_1 + random_number_2
     elif random_operator == '-':
-        answer = x - y
+        answer = random_number_1 - random_number_2
     elif random_operator == '*':
-        answer = x * y
+        answer = random_number_1 * random_number_2
     return question, str(answer)
