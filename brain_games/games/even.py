@@ -5,9 +5,8 @@ otherwise answer "no".'
 
 
 def game_round():
-    x = randint(1, 100)
-    question = x
+    question = randint(1, 100)
     answer = 'no'
-    if x % 2 == 0:
+    if question % 2 == 0:
         answer = 'yes'
     return question, answer
