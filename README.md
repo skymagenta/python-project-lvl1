@@ -13,16 +13,16 @@ Welcome to Brain-games, Math games for everyone.
 * Is number prime?
 
 Example of Odd-Even game:
-[![asciicast](https://asciinema.org/a/Y8WyF0bbzi3WMVsNakxCtYQc2.svg)](https://asciinema.org/a/Y8WyF0bbzi3WMVsNakxCtYQc2)
+[![asciicast](https://asciinema.org/a/j67nB6SVWhmIYUgRkhcNdMxu2.svg)](https://asciinema.org/a/j67nB6SVWhmIYUgRkhcNdMxu2)
 
 Example of Calc game:
-[![asciicast](https://asciinema.org/a/QgDKdlOnNmy2BmB0LJMAtreet.svg)](https://asciinema.org/a/QgDKdlOnNmy2BmB0LJMAtreet)
+[![asciicast](https://asciinema.org/a/t70GpsYnOqVqRqJycSafnrQwg.svg)](https://asciinema.org/a/t70GpsYnOqVqRqJycSafnrQwg)
 
 Example of GCD game:
-[![asciicast](https://asciinema.org/a/xIM49HPohgNbwOEXJokGzwBTt.svg)](https://asciinema.org/a/xIM49HPohgNbwOEXJokGzwBTt)
+[![asciicast](https://asciinema.org/a/gpgxA1F6450vJby6s4JpqCNID.svg)](https://asciinema.org/a/gpgxA1F6450vJby6s4JpqCNID)
 
 Example of Arithmetic progression game:
-[![asciicast](https://asciinema.org/a/FozdmdK4vr4kEC7tNHs1wkcid.svg)](https://asciinema.org/a/FozdmdK4vr4kEC7tNHs1wkcid)
+[![asciicast](https://asciinema.org/a/skTWNJDwvEZpjNSpYisxmeg3g.svg)](https://asciinema.org/a/skTWNJDwvEZpjNSpYisxmeg3g)
 
 Example of Is number prime game:
-[![asciicast](https://asciinema.org/a/MHg5a68KqP0NdGGJ3lJZY9ZRO.svg)](https://asciinema.org/a/MHg5a68KqP0NdGGJ3lJZY9ZRO)
+[![asciicast](https://asciinema.org/a/SudYGlFrHXM2gwhmvFeEI6INP.svg)](https://asciinema.org/a/SudYGlFrHXM2gwhmvFeEI6INP)
