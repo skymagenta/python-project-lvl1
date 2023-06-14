@@ -12,17 +12,17 @@ Welcome to Brain-games, Math games for everyone.
 * Arithmetic progression.
 * Is number prime?
 
-Example of Odd-Even game:
+# Example of Odd-Even game:
 [![asciicast](https://asciinema.org/a/j67nB6SVWhmIYUgRkhcNdMxu2.svg)](https://asciinema.org/a/j67nB6SVWhmIYUgRkhcNdMxu2)
 
-Example of Calc game:
+# Example of Calc game:
 [![asciicast](https://asciinema.org/a/t70GpsYnOqVqRqJycSafnrQwg.svg)](https://asciinema.org/a/t70GpsYnOqVqRqJycSafnrQwg)
 
-Example of GCD game:
+# Example of GCD game:
 [![asciicast](https://asciinema.org/a/gpgxA1F6450vJby6s4JpqCNID.svg)](https://asciinema.org/a/gpgxA1F6450vJby6s4JpqCNID)
 
-Example of Arithmetic progression game:
+# Example of Arithmetic progression game:
 [![asciicast](https://asciinema.org/a/skTWNJDwvEZpjNSpYisxmeg3g.svg)](https://asciinema.org/a/skTWNJDwvEZpjNSpYisxmeg3g)
 
-Example of Is number prime game:
+# Example of Is number prime game:
 [![asciicast](https://asciinema.org/a/SudYGlFrHXM2gwhmvFeEI6INP.svg)](https://asciinema.org/a/SudYGlFrHXM2gwhmvFeEI6INP)
